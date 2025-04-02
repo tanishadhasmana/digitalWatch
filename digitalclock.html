@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* background-color: rgb(77, 38, 114); */
+        }
+
+        .clock {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-family: Arial, sans-serif;
+            background-color: rgb(77, 38, 114); 
+             width: 100vw;
+            height: 100vh;
+        }
+
+        .boxhrs,
+        .boxmins,
+        .boxsecs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            font-weight: bold;
+            background-color: lightgray;
+            border: 2px solid rgb(97, 38, 131);
+            color: wheat;
+            background-color: rgb(68, 24, 104);
+            font-weight: 500;
+            font-size: large;
+        }
+        .clock{
+            color: white;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clock">
+        <div class="boxhrs">00</div>:
+        <div class="boxmins">00</div>:
+        <div class="boxsecs">00</div>
+    </div>
+
+    <script src="digitalclock.js"></script>
+</body>
+
+</html>
